@@ -82,10 +82,14 @@ img {
 	height: 100vh;
 }
 
-.desktop-background {
+.background {
 	grid-row: 1 / -1;
 	grid-column: 1 / -1;
 	z-index: 1;
+}
+
+.mobile-background {
+	display: none;
 }
 
 .order-card {
@@ -220,5 +224,12 @@ img.hero-img {
 	.cancel-btn {
 		font-size: 15px;
 	}
-	/* Add the pattern-background-mobile.svg to the background*/
+
+	.desktop-background {
+		display: none;
+	}
+
+	.mobile-background {
+		display: block;
+	}
 }
