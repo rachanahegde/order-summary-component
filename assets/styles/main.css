@@ -82,7 +82,7 @@ img {
 	height: 100vh;
 }
 
-.background {
+.desktop-background {
 	grid-row: 1 / -1;
 	grid-column: 1 / -1;
 	z-index: 1;
@@ -211,7 +211,14 @@ img.hero-img {
 		justify-content: center;
 		align-content: center;
 	}
+
+	.payment-btn {
+		font-size: 15px;
+		height: 50px;
+	}
+
+	.cancel-btn {
+		font-size: 15px;
+	}
 	/* Add the pattern-background-mobile.svg to the background*/
-	/* Make the font size for the buttons a little bigger! */
-	/* Increase the height of the payment button a little */
 }
