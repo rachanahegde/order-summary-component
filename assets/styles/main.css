@@ -100,18 +100,20 @@ img {
 	z-index: 2;
 	justify-self: center;
 	align-self: center;
-	width: 375px;
+	width: 400px;
 	display: grid;
 	grid-template-columns: 1fr;
 }
 
 img.hero-img {
 	border-radius: 15px 15px 0px 0px;
+	height: 100%;
 }
 
 .main-card {
 	display: grid;
 	grid-template-columns: 1fr;
+	height: 105%;
 	gap: 25px;
 	background: white;
 	border-radius: 0px 0px 15px 15px;
@@ -208,9 +210,13 @@ img.hero-img {
 
 @media all and (max-width: 450px) {
 	.order-card {
-		width: 300px;
+		width: 320px;
 		justify-content: center;
 		align-content: center;
+	}
+
+	.main-card {
+		height: 100%;
 	}
 
 	.payment-btn {
