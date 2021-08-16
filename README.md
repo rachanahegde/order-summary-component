@@ -39,7 +39,7 @@ This was my first attempt at using CSS grid to build my own project and I applie
 
 - [CSS Grid](https://cssgrid.io/) - This course taught me everything I know about CSS Grid and I highly recommend it. 
 - [Stack Overflow Explanation on Aligning Items vs Content](https://stackoverflow.com/questions/40740553/what-is-the-difference-between-align-items-vs-align-content-in-grid-layout) - This was a game changer for me because it helped me finally understand when to use align items vs align content and how grid works in different situations.
-– [CSS Resets](https://learn.shayhowe.com/html-css/building-your-first-web-page/#using-css-resets) – I used this explanation of CSS resets to guide me.
+- [CSS Resets](https://learn.shayhowe.com/html-css/building-your-first-web-page/#using-css-resets) – I used this explanation of CSS resets to guide me.
 
 ## Author
 
