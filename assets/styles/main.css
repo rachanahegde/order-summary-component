@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+/* || CSS Resets */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -124,11 +126,9 @@ img.hero-img {
 
 .plan-btn {
 	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	height: 90px;
-	/* width: 330px; */
 	width: 80%;
 	border-radius: 10px 10px 10px 10px;
 	background: hsl(225, 100%, 98%);
@@ -138,7 +138,6 @@ img.hero-img {
 .plan-btn-main {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	/* justify-items: center; */
 	grid-column: span 2 / 3;
     justify-items: left;
 }
@@ -166,7 +165,6 @@ img.hero-img {
 	grid-column: span 1 \ -1;
     padding-right: 10px;
 	justify-self: right;
-	/* padding-right: 25px; */
 	font-weight: bold;
 	color: hsl(245, 75%, 52%);
 }
@@ -178,7 +176,6 @@ img.hero-img {
 
 .payment-btn {
 	height: 45px;
-	/* width: 330px; */
 	width: 80%;
 	border-radius: 10px 10px 10px 10px;
 	background: hsl(245, 75%, 52%);
@@ -195,7 +192,7 @@ img.hero-img {
 
 .cancel-btn {
 	height: 40px;
-	width: 330px;
+	width: 80%;
 	border-radius: 10px 10px 10px 10px;
 	background: white;
 	color: hsl(224, 23%, 55%);
