@@ -107,13 +107,11 @@ img {
 
 img.hero-img {
 	border-radius: 15px 15px 0px 0px;
-	height: 100%;
 }
 
 .main-card {
 	display: grid;
 	grid-template-columns: 1fr;
-	height: 105%;
 	gap: 25px;
 	background: white;
 	border-radius: 0px 0px 15px 15px;
@@ -213,10 +211,6 @@ img.hero-img {
 		width: 320px;
 		justify-content: center;
 		align-content: center;
-	}
-
-	.main-card {
-		height: 100%;
 	}
 
 	.payment-btn {
