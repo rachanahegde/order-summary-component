@@ -100,7 +100,7 @@ img {
 	z-index: 2;
 	justify-self: center;
 	align-self: center;
-	width: 400px;
+	width: 375px;
 	display: grid;
 	grid-template-columns: 1fr;
 }
@@ -208,7 +208,7 @@ img.hero-img {
 
 @media all and (max-width: 450px) {
 	.order-card {
-		width: 320px;
+		width: 300px;
 		justify-content: center;
 		align-content: center;
 	}
